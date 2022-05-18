@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+.header_division{
+    color:azure;
+    background-color: blue;
+}
+.header_division p{
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
+.main_div button{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 55px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    font-size: 17px;
+    color: azure;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
