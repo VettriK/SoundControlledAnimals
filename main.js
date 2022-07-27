@@ -5,10 +5,10 @@ function start(){
     classifier=ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/c3BZV-m1R/model.json", modelLoaded)
 }
     function modelLoaded(){
-    classifier.classify(getResult())
+    classifier.classify(getResult)
     console.log("Model Loaded Successfully")
 }
-function gotResult(error, result){
+function getResult(error, result){
     if (error) {
         console.log(error)
     }
